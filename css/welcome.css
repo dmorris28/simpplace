@@ -1,0 +1,47 @@
+
+body {
+	margin: 0;
+	background-color: #eee;
+	padding: 1em 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+section {
+
+}
+
+section h1 {
+	margin: 0.5em 1em;
+	font-size: 2em;
+}
+section#welcome h1 {
+	margin: 0.125em 0;
+	margin-left: 10vw;
+	font-size: 2.5em;
+}
+section#welcome h2 {
+	margin: 0.125em 0;
+	margin-right: 10vw;
+	text-align: right;
+	font-size: 2.5em;
+}
+
+section#shift {
+	padding: 0.25em 0.5em;
+	background-color: lightblue;
+}
+
+section#picture img {
+	margin: 2em 20vw;
+	max-width: 60vw;
+}
+
+section#nav {
+	position: absolute;
+	bottom: 0;
+}
+section#nav a img {
+	width: 20vw;
+	height: 15vw;
+	background-color: #999;
+}

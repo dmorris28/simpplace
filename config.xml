@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.simpplace"
+        versionCode = "1" 
+        version     = "1.0.0" >
+    <!-- Should change id to com.app.noah or something (backwards url) -->
+    <!-- versionCode is optional and Android only -->
+
+    <gap:platform name='android'/>
+    <gap:platform name='ios'/>
+    <!-- This is for developing for android, can look online for other OSs -->
+
+    <name>SimpPlace</name>
+
+    <description>
+        Description
+    </description>
+
+    <author href="https://noahthomas.us/" email="007noahthomas@gmail.com">
+        Noah Thomas
+    </author>
+
+    <icon src="images/icon.png"/>
+    <!-- Max size 512x512 -->
+
+    <preference name="permissions" value="none"/>
+    <!-- Says no permissions are required -->
+    <!-- http://docs.build.phonegap.com/en_US/2.9.0/configuring_features.md.html -->
+
+</widget>
